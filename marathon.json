@@ -1,12 +1,12 @@
 {
-  "id": "/nginx-echo-sleep",
+  "id": "/elasticsearch-router",
   "cpus": 1,
   "mem": 256,
   "instances": 1,
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "brndnmtthws/nginx-echo-sleep",
+      "image": "brndnmtthws/elasticsearch-router",
       "network": "BRIDGE",
       "portMappings": [{
               "containerPort": 8080,
